@@ -86,7 +86,7 @@ use Illuminate\Console\Command as Command;
             "Parrot\\\\Parrot\\\\": "parrot/parrot/"',
             '"laravel": {
             "providers": [
-              "Parrot\\Parrot\\App\\Providers\\ParrotServiceProvider"
+              "Parrot\\\\Parrot\\\\App\\\\Providers\\\\ParrotServiceProvider"
             ],'
         ],
           $stub
