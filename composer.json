@@ -1,0 +1,29 @@
+{
+    "name": "laravel-parrot/laravel-parrot-setup",
+    "description": "A parrot project for laravel(vue) dev ",
+    "keywords": ["laravel", "parrot", "laravel-parrot", "parrot-project", "code4mk"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "code4mk",
+            "twitter": "@code4mk",
+            "email": "hiremostafa@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "wikimedia/composer-merge-plugin": "1.4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelParrot\\Setup\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelParrot\\Setup\\LaravelParrotServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
