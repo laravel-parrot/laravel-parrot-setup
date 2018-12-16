@@ -14,6 +14,10 @@ composer require laravel-parrot/laravel-parrot-setup
 ```bash
 laravel-parrot:setup
 ```
+* composer merge
+```bash
+composer update -vv
+```
 * composer dump-autoload
 ```bash
 composer dump-autoload

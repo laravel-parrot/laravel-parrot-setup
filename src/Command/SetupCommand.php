@@ -65,24 +65,29 @@ use Illuminate\Console\Command as Command;
           [
             '"extra": {',
             '"App\\\\": "app/"',
+            '"laravel": {',
           ],
           [
             '"extra": {
-              "merge-plugin": {
-                "include": [
-                    "parrot/parrot/composer.json",
-                    "pluginx/*/composer.json"
-                    ],
-                "recurse": true,
-                "replace": false,
-                "ignore-duplicates": false,
-                "merge-dev": true,
-                "merge-extra": false,
-                "merge-extra-deep": false,
-                "merge-scripts": false
-              },',
-              '"App\\\\": "app/",
-          "Parrot\\\\Parrot\\\\": "parrot/parrot/"',
+      "merge-plugin": {
+        "include": [
+            "parrot/parrot/composer.json",
+            "pluginx/*/composer.json"
+            ],
+        "recurse": true,
+        "replace": false,
+        "ignore-duplicates": false,
+        "merge-dev": true,
+        "merge-extra": false,
+        "merge-extra-deep": false,
+        "merge-scripts": false
+      },',
+            '"App\\\\": "app/",
+            "Parrot\\\\Parrot\\\\": "parrot/parrot/"',
+            '"laravel": {
+            "providers": [
+              "Parrot\\Parrot\\App\\Providers\\ParrotServiceProvider"
+            ],'
         ],
           $stub
       );
