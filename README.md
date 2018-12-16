@@ -12,6 +12,8 @@ A Parrot Project for laravel (vue) dev.
 
 # Installation
 
+~ Follow step by step
+
 ```bash
 composer require laravel-parrot/laravel-parrot-setup
 ```
@@ -27,4 +29,8 @@ composer update -vv
 * composer dump-autoload
 ```bash
 composer dump-autoload
+```
+* add parrot project  provider
+```bash
+laravel-parrot:provider
 ```
