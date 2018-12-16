@@ -69,9 +69,9 @@ use Illuminate\Console\Command as Command;
             'App\\Providers\\RouteServiceProvider::class,
 
         /*
-          * Parrot Project Service Providers
-          */
-          Parrot\\Parrot\\App\\Providers\\ParrotServiceProvider::class,
+        * Parrot Project Service Providers
+        */
+        Parrot\\Parrot\\App\\Providers\\ParrotServiceProvider::class,
              '
         ],
           $stub
