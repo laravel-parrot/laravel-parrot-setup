@@ -10,7 +10,7 @@
             "email": "hiremostafa@gmail.com"
         }
     ],
-    "require-dev": {
+    "require": {
         "wikimedia/composer-merge-plugin": "1.4.1"
     },
     "autoload": {
