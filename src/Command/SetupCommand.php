@@ -35,7 +35,7 @@ use Illuminate\Console\Command as Command;
 
     $this->files->put($path, $this->buildClass());
 
-    $this->info($this->type.' created successfully.');
+    $this->info('Parrot json added successfully in composer.json .');
   }
 
   /**
