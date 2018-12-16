@@ -24,5 +24,6 @@ class LaravelParrotServiceProvider extends ServiceProvider
     public function register()
     {
       $this->commands('LaravelParrot\Setup\Command\SetupCommand');
+      $this->commands('LaravelParrot\Setup\Command\ProviderAddCommand');
     }
 }
