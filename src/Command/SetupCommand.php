@@ -65,7 +65,6 @@ use Illuminate\Console\Command as Command;
           [
             '"extra": {',
             '"App\\\\": "app/"',
-            '"laravel": {',
           ],
           [
             '"extra": {
@@ -84,10 +83,6 @@ use Illuminate\Console\Command as Command;
       },',
             '"App\\\\": "app/",
             "Parrot\\\\Parrot\\\\": "parrot/parrot/"',
-            '"laravel": {
-            "providers": [
-              "Parrot\\\\Parrot\\\\App\\\\Providers\\\\ParrotServiceProvider"
-            ],'
         ],
           $stub
       );
