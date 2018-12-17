@@ -33,11 +33,11 @@ use Illuminate\Console\Command as Command;
   public function handle(){
 
     if (! file_exists(base_path('parrot'))) {
-      echo exec('composer create-project parrot/parrot parrot dev-master');
+      echo exec('composer create-project --prefer-dist parrot/parrot parrot dev-master');
 
       $this->files->deleteDirectory(base_path('parrot/vendor'));
 
-      $this->info('complete parrot project clone');
+      $this->info('complete clone parrot project');
     } else {
       $this->info('Already have parrot project');
     }
