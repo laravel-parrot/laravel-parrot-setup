@@ -18,6 +18,11 @@ A Parrot Project for laravel (vue) dev.
 composer require laravel-parrot/laravel-parrot-setup
 ```
 
+* parrot project command
+```bash
+laravel-parrot:parrot
+```
+
 * command for add parrot json with composer.json
 ```bash
 laravel-parrot:setup
