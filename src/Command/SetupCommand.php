@@ -6,7 +6,14 @@ use Illuminate\Support\Str;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Console\Command as Command;
 
- class SetupCommand extends Command
+/**
+ * @author    @code4mk <hiremostafa@gmail.com>
+ * @author    @0devco <with@0dev.co>
+ * @since     2019
+ * @copyright 0dev.co (https://0dev.co)
+ */
+
+class SetupCommand extends Command
 {
 
   protected $signature = 'laravel-parrot:setup';
