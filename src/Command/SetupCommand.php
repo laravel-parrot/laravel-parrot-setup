@@ -76,7 +76,7 @@ class SetupCommand extends Command
             '"extra": {
       "merge-plugin": {
         "include": [
-            "parrot/parrot/composer.json",
+            "parrot/composer.json",
             "pluginx/*/composer.json"
             ],
         "recurse": true,
@@ -88,7 +88,7 @@ class SetupCommand extends Command
         "merge-scripts": false
       },',
             '"App\\\\": "app/",
-            "Parrot\\\\Parrot\\\\": "parrot/parrot/"',
+            "Parrot\\\\Parrot\\\\": "parrot/"',
         ],
           $stub
       );
