@@ -1,7 +1,7 @@
 {
     "name": "laravel-parrot/laravel-parrot-setup",
-    "description": "A parrot project for laravel(vue) dev ",
-    "keywords": ["laravel", "parrot", "laravel-parrot", "parrot-project", "code4mk"],
+    "description": "A parrot project for laravel dev ",
+    "keywords": ["laravel","laravel-module", "parrot", "laravel-parrot", "parrot-project", "code4mk"],
     "license": "MIT",
     "authors": [
         {

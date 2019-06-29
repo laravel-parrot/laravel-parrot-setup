@@ -1,17 +1,15 @@
 <?php
-
 namespace LaravelParrot\Setup\Command;
-
-use Illuminate\Support\Str;
-use Illuminate\Filesystem\Filesystem;
-use Illuminate\Console\Command as Command;
 
 /**
  * @author    @code4mk <hiremostafa@gmail.com>
  * @author    @0devco <with@0dev.co>
- * @since     2019
  * @copyright 0dev.co (https://0dev.co)
  */
+
+use Illuminate\Support\Str;
+use Illuminate\Filesystem\Filesystem;
+use Illuminate\Console\Command as Command;
 
 class ParrotCommand extends Command
 {
